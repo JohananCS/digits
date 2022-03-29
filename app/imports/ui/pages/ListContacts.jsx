@@ -3,6 +3,7 @@ import { Meteor } from 'meteor/meteor';
 import { Container, Header, Loader, Card } from 'semantic-ui-react';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
+import Contact from '../components/Contact';
 import { Stuffs } from '../../api/stuff/Stuff';
 
 /** Renders a table containing all of the Stuff documents. Use <StuffItem> to render each row. */
@@ -22,7 +23,7 @@ class ListContacts extends React.Component {
   },
   {
     firstName: 'Kim', lastName: 'Binsted', address: 'POST 307, University of Hawaii',
-    image: 'https://www.ics.hawaii.edu/wp-content/uploads/2013/08/kim_binsted-square-300x300.jpg',
+    image: 'https://static01.nyt.com/images/2016/05/01/opinion/sunday/01download/01download-superJumbo-v2.jpg',
     description: 'Kim Binsted received her BSc in Physics at McGill (1991), and her PhD in Artificial Intelligence' +
       'from the University of Edinburgh (1996). Her thesis topic was the computational modeling and generation of ' +
       'punning riddles, and her program, JAPE (Joke Analysis and Production Engine), generated puns such as ' +
