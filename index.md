@@ -1,5 +1,5 @@
 <h1> Digits </h1>
-<img src="doc/landing.png"><img>
+<img src="landing.png"><img>
 <p>
 	1. Install meteor<br>
 	2. Download copy of Digits<br>
